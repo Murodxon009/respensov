@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conanier{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box>div{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    transition: all 1s;
+}
+
+ .box:hover .box_child1{
+    transition: all 1s;
+    background-color: yellow;
+    transform: translate(-150px, -150px);
+}
+.box:hover .box_child4 {
+    background-color: orange;
+    transform: translate(150px, 150px );
+    transition: all 1s;
+}
+.box:hover .box_child2{
+    transition: all 1s ;
+    background-color: red;
+    transform: translate(150px, -150px);
+}
+.box:hover .box_child3{
+    transition: all 1s ;
+    background-color: red;
+    transform: translate(-150px, 150px);
+}

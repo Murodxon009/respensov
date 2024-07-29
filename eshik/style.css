@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    height:100vh ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(93, 60, 0);
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(93, 60, 0);
+}
+
